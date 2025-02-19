@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Revive"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Revive">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignInActivity"/>
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".MainActivity"/>
+
+        <!-- Add the AddItemActivity here -->
+        <activity android:name=".AddItemActivity"/>
+        <activity android:name=".Activity1"/>
+        <activity android:name=".Activity2"/>
+        <activity android:name=".Activity3"/>
+        <activity android:name=".Activity4"/>
+
+        <!-- Add additional activities here as needed -->
+        <!-- If you have any other activities related to the SellFragment, declare them here. -->
+
+    </application>
+</manifest>

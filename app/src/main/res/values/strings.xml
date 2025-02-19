@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ReVive</string>
+    <string name="default_web_client_id">AIzaSyCucAsDkBzTXShR0Rl6tKwX1sCHokJ5UwA</string>
+    <string name="item_image_description">Image of the item</string>
+    <string name="price_format">$%.2f</string>
+    <string name="item_image_desc">Item image</string>
+
+    <!-- New content descriptions for the icon buttons -->
+    <string name="button1_description">Description for Button 1</string>
+    <string name="button2_description">Description for Button 2</string>
+    <string name="button3_description">Description for Button 3</string>
+    <string name="button4_description">Description for Button 4</string>
+</resources>
